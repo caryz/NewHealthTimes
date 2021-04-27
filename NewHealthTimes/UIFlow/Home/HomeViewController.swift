@@ -7,6 +7,7 @@
 
 import UIKit
 import Alamofire
+import WebKit
 
 class HomeViewController: UIViewController, Storyboarded {
 
@@ -36,7 +37,6 @@ class HomeViewController: UIViewController, Storyboarded {
     }
 
     private func configureNavBar() {
-        navigationController?.navigationBar.prefersLargeTitles = true
         title = "New Health Times"
     }
 
@@ -62,4 +62,16 @@ extension HomeViewController: UITableViewDataSource {
 
 extension HomeViewController: UITableViewDelegate {
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let viewModel = WebViewContainerViewModel(with: storyModels[indexPath.row], delegate: self)
+        let webViewContainer = WebViewContainerViewController.viewController(with: viewModel)
+
+        navigationController?.pushViewController(webViewContainer, animated: true)
+    }
+}
+
+extension HomeViewController: WebViewContainerDelegate {
+    func exitWebViewContainer() {
+        navigationController?.popToRootViewController(animated: true)
+    }
 }

@@ -99,8 +99,59 @@
             </objects>
             <point key="canvasLocation" x="73.913043478260875" y="126.5625"/>
         </scene>
+        <!--Web View Container View Controller-->
+        <scene sceneID="pUg-h0-Hb1">
+            <objects>
+                <viewController storyboardIdentifier="WebViewContainerViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ppa-xX-gqr" customClass="WebViewContainerViewController" customModule="NewHealthTimes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Us-Ks-4ak">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a8a-D4-1bx">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="bIr-ea-TGX">
+                                <rect key="frame" x="188.5" y="434.5" width="37" height="37"/>
+                                <color key="color" systemColor="linkColor"/>
+                            </activityIndicatorView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="KnM-jU-tzj">
+                                <rect key="frame" x="0.0" y="44" width="414" height="4"/>
+                            </progressView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mF6-hv-yaV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mF6-hv-yaV" firstAttribute="bottom" secondItem="a8a-D4-1bx" secondAttribute="bottom" id="7Mp-Yz-PAt"/>
+                            <constraint firstItem="KnM-jU-tzj" firstAttribute="leading" secondItem="mF6-hv-yaV" secondAttribute="leading" id="DE1-85-894"/>
+                            <constraint firstItem="mF6-hv-yaV" firstAttribute="trailing" secondItem="a8a-D4-1bx" secondAttribute="trailing" id="FRX-yw-gwy"/>
+                            <constraint firstItem="a8a-D4-1bx" firstAttribute="top" secondItem="mF6-hv-yaV" secondAttribute="top" id="UZk-vH-7fk"/>
+                            <constraint firstItem="bIr-ea-TGX" firstAttribute="centerY" secondItem="mF6-hv-yaV" secondAttribute="centerY" id="Ucj-03-u5F"/>
+                            <constraint firstItem="mF6-hv-yaV" firstAttribute="trailing" secondItem="KnM-jU-tzj" secondAttribute="trailing" id="Wr7-aQ-Sxe"/>
+                            <constraint firstItem="KnM-jU-tzj" firstAttribute="top" secondItem="mF6-hv-yaV" secondAttribute="top" id="dvp-hV-sLN"/>
+                            <constraint firstItem="a8a-D4-1bx" firstAttribute="leading" secondItem="mF6-hv-yaV" secondAttribute="leading" id="mXW-gc-EDG"/>
+                            <constraint firstItem="bIr-ea-TGX" firstAttribute="centerX" secondItem="mF6-hv-yaV" secondAttribute="centerX" id="rja-lO-DOm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="bIr-ea-TGX" id="bp2-FS-kDt"/>
+                        <outlet property="progressView" destination="KnM-jU-tzj" id="yEm-3w-Y4p"/>
+                        <outlet property="webView" destination="a8a-D4-1bx" id="3MO-GY-RjW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OOt-56-yrt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="858" y="127"/>
+        </scene>
     </scenes>
     <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -8,25 +8,6 @@
 import Foundation
 import Alamofire
 
-// Error Handling
-struct APIError: Error {
-    let status: Int?
-    let errorMsg: String
-
-    static let defaultErrorMessage = "Something went wrong, please try again later."
-}
-
-struct ErrorMessage: Codable {
-    var status: Int
-    var errorMsg: String
-}
-
-extension Data {
-    var errorMessage: String {
-        return (try? JSONDecoder().decode(ErrorMessage.self, from: self).errorMsg) ?? APIError.defaultErrorMessage
-    }
-}
-
 // API Configuration
 public protocol APIConfiguration: URLRequestConvertible {
     var httpMethod: HTTPMethod { get }

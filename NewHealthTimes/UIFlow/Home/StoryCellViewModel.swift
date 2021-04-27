@@ -19,7 +19,7 @@ struct StoryCellViewModel {
         title = story.title
         subtitle = story.abstract
         byline = story.byline
-        date = story.publishedDate // date format
+        date = story.publishedDate.iso8601Date?.monthDayYear ?? ""
         url = URL(string: story.url)
     }
 }
