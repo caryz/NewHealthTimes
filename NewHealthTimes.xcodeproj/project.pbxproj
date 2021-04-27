@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4A2EB59326379F3800A773A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EB59226379F3800A773A6 /* AppDelegate.swift */; };
-		4A2EB59526379F3800A773A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EB59426379F3800A773A6 /* SceneDelegate.swift */; };
 		4A2EB59726379F3800A773A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EB59626379F3800A773A6 /* ViewController.swift */; };
 		4A2EB59A26379F3800A773A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2EB59826379F3800A773A6 /* Main.storyboard */; };
 		4A2EB59C26379F3A00A773A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2EB59B26379F3A00A773A6 /* Assets.xcassets */; };
@@ -16,6 +15,10 @@
 		4A2EB5AA26379F3A00A773A6 /* NewHealthTimesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EB5A926379F3A00A773A6 /* NewHealthTimesTests.swift */; };
 		4A2EB5B526379F3A00A773A6 /* NewHealthTimesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EB5B426379F3A00A773A6 /* NewHealthTimesUITests.swift */; };
 		4A2EB5CA2637A0F800A773A6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4A2EB5C92637A0F800A773A6 /* Alamofire */; };
+		4A2EB5DA2637A36300A773A6 /* TopStoriesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EB5D92637A36300A773A6 /* TopStoriesAPI.swift */; };
+		4A2EB5DF2637A84000A773A6 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EB5DE2637A84000A773A6 /* APIConfiguration.swift */; };
+		4A2EB5E42637A84A00A773A6 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EB5E32637A84A00A773A6 /* APIConstants.swift */; };
+		4A2EB5EF2637AE5800A773A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EB5EE2637AE5800A773A6 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 /* Begin PBXFileReference section */
 		4A2EB58F26379F3800A773A6 /* NewHealthTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewHealthTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2EB59226379F3800A773A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A2EB59426379F3800A773A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4A2EB59626379F3800A773A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4A2EB59926379F3800A773A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A2EB59B26379F3A00A773A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +52,10 @@
 		4A2EB5B026379F3A00A773A6 /* NewHealthTimesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewHealthTimesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2EB5B426379F3A00A773A6 /* NewHealthTimesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHealthTimesUITests.swift; sourceTree = "<group>"; };
 		4A2EB5B626379F3A00A773A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2EB5D92637A36300A773A6 /* TopStoriesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesAPI.swift; sourceTree = SOURCE_ROOT; };
+		4A2EB5DE2637A84000A773A6 /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		4A2EB5E32637A84A00A773A6 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		4A2EB5EE2637AE5800A773A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +107,10 @@
 		4A2EB59126379F3800A773A6 /* NewHealthTimes */ = {
 			isa = PBXGroup;
 			children = (
+				4A2EB5D52637A2BB00A773A6 /* UIFlow */,
+				4A2EB5D42637A2A800A773A6 /* API */,
 				4A2EB59226379F3800A773A6 /* AppDelegate.swift */,
-				4A2EB59426379F3800A773A6 /* SceneDelegate.swift */,
+				4A2EB5EE2637AE5800A773A6 /* SceneDelegate.swift */,
 				4A2EB59626379F3800A773A6 /* ViewController.swift */,
 				4A2EB59826379F3800A773A6 /* Main.storyboard */,
 				4A2EB59B26379F3A00A773A6 /* Assets.xcassets */,
@@ -128,6 +136,23 @@
 				4A2EB5B626379F3A00A773A6 /* Info.plist */,
 			);
 			path = NewHealthTimesUITests;
+			sourceTree = "<group>";
+		};
+		4A2EB5D42637A2A800A773A6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4A2EB5E32637A84A00A773A6 /* APIConstants.swift */,
+				4A2EB5DE2637A84000A773A6 /* APIConfiguration.swift */,
+				4A2EB5D92637A36300A773A6 /* TopStoriesAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		4A2EB5D52637A2BB00A773A6 /* UIFlow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2EB5DA2637A36300A773A6 /* TopStoriesAPI.swift in Sources */,
 				4A2EB59726379F3800A773A6 /* ViewController.swift in Sources */,
+				4A2EB5E42637A84A00A773A6 /* APIConstants.swift in Sources */,
+				4A2EB5DF2637A84000A773A6 /* APIConfiguration.swift in Sources */,
 				4A2EB59326379F3800A773A6 /* AppDelegate.swift in Sources */,
-				4A2EB59526379F3800A773A6 /* SceneDelegate.swift in Sources */,
+				4A2EB5EF2637AE5800A773A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
