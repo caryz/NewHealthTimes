@@ -8,10 +8,26 @@
 import Foundation
 import Alamofire
 
-enum APIError: Error {
-    case invalidRequest(String)
+// Error Handling
+struct APIError: Error {
+    let status: Int?
+    let errorMsg: String
+
+    static let defaultErrorMessage = "Something went wrong, please try again later."
 }
 
+struct ErrorMessage: Codable {
+    var status: Int
+    var errorMsg: String
+}
+
+extension Data {
+    var errorMessage: String {
+        return (try? JSONDecoder().decode(ErrorMessage.self, from: self).errorMsg) ?? APIError.defaultErrorMessage
+    }
+}
+
+// API Configuration
 public protocol APIConfiguration: URLRequestConvertible {
     var httpMethod: HTTPMethod { get }
     var path: String { get }
@@ -29,7 +45,7 @@ public extension APIConfiguration {
 
     func asURLRequest() throws -> URLRequest {
         guard let url = URL(string: "\(APIConstants.baseURL)/\(path)") else {
-            throw APIError.invalidRequest("Path not convertable to URL")
+            throw APIError(status: nil, errorMsg: "Path not convertible to URL")
         }
         var urlRequest = URLRequest(url: url)
 

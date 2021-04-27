@@ -44,7 +44,15 @@ struct TopStoriesResult: Codable {
 }
 
 struct StoryMultimedia: Codable {
+    enum ImageFormat: String, Codable {
+        case superJumbo = "superJumbo"
+        case standardThumbnail = "Standard Thumbnail"
+        case largeThumbnail = "thumbLarge"
+        case mediumThreeByTwo = "mediumThreeByTwo210"
+        case normal = "Normal"
+    }
     let url: String
+    let format: ImageFormat
     let caption: String
     let copyright: String
 }
@@ -70,8 +78,11 @@ extension TopStoriesAPI {
                 switch response.result {
                 case .success(let topStoriesRoot):
                     print(topStoriesRoot)
-                case .failure(let error):
-                    print(error.localizedDescription)
+                    completion?(.success(topStoriesRoot))
+                case .failure:
+                    let errorMessage = response.data?.errorMessage ?? APIError.defaultErrorMessage
+                    let error = APIError(status: response.response?.statusCode, errorMsg: errorMessage)
+                    completion?(.failure(error))
                 }
             }
     }

@@ -16,6 +16,7 @@ class MainAppCoordinator: Coordinator {
 
     func start() {
         let vc = HomeViewController.instantiate()
+        vc.coordinator = self
         navigationController.pushViewController(vc, animated: false)
     }
 }

@@ -7,15 +7,15 @@
 
 import UIKit
 
-enum AppStoryboard: String {
-   case main = "Main"
+protocol Storyboarded {
+    static func instantiate() -> Self
 }
 
-extension UIViewController {
-    class func instantiate<T: UIViewController>(appStoryboard: AppStoryboard = .main) -> T {
-
-        let storyboard = UIStoryboard(name: appStoryboard.rawValue, bundle: nil)
-        let identifier = String(describing: self)
-        return storyboard.instantiateViewController(withIdentifier: identifier) as! T
+extension Storyboarded where Self: UIViewController {
+    static func instantiate() -> Self {
+        let fullName = NSStringFromClass(self)
+        let className = fullName.components(separatedBy: ".")[1]
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        return storyboard.instantiateViewController(withIdentifier: className) as! Self
     }
 }
