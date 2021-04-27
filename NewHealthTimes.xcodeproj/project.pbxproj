@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		4A2EB59F26379F3A00A773A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2EB59D26379F3A00A773A6 /* LaunchScreen.storyboard */; };
 		4A2EB5AA26379F3A00A773A6 /* NewHealthTimesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EB5A926379F3A00A773A6 /* NewHealthTimesTests.swift */; };
 		4A2EB5B526379F3A00A773A6 /* NewHealthTimesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EB5B426379F3A00A773A6 /* NewHealthTimesUITests.swift */; };
+		4A2EB5CA2637A0F800A773A6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4A2EB5C92637A0F800A773A6 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2EB5CA2637A0F800A773A6 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +146,9 @@
 			dependencies = (
 			);
 			name = NewHealthTimes;
+			packageProductDependencies = (
+				4A2EB5C92637A0F800A773A6 /* Alamofire */,
+			);
 			productName = NewHealthTimes;
 			productReference = 4A2EB58F26379F3800A773A6 /* NewHealthTimes.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 4A2EB58626379F3800A773A6;
+			packageReferences = (
+				4A2EB5C82637A0F800A773A6 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 4A2EB59026379F3800A773A6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -366,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -593,6 +601,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4A2EB5C82637A0F800A773A6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4A2EB5C92637A0F800A773A6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A2EB5C82637A0F800A773A6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4A2EB58726379F3800A773A6 /* Project object */;
 }
