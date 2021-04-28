@@ -68,6 +68,8 @@ struct TopStoriesAPI: APIConfiguration {
 }
 
 extension TopStoriesAPI {
+
+    /// For simplicity's sake, I left this as "health" but it can be used for any valid NYT section
     func get(section: String = "health", completion: ((Result<TopStoriesRoot, APIError>) -> Void)? = nil) {
         let urlString = "\(APIConstants.baseURL)/\(path)/\(section).json"
 
@@ -77,7 +79,6 @@ extension TopStoriesAPI {
             .responseDecodable(of: TopStoriesRoot.self) { response in
                 switch response.result {
                 case .success(let topStoriesRoot):
-                    print(topStoriesRoot)
                     completion?(.success(topStoriesRoot))
                 case .failure:
                     let errorMessage = response.data?.errorMessage ?? APIError.defaultErrorMessage

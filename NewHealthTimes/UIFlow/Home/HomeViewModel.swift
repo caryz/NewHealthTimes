@@ -10,13 +10,15 @@ import Foundation
 struct HomeViewModel {
     var storyModels = [TopStoriesResult]()
     var storyCellViewModels = [StoryCellViewModel]()
+    var homeDelegate: StoryCellDelegate
 
-    init(with storyModels: [TopStoriesResult]) {
+    init(with storyModels: [TopStoriesResult], homeDelegate: StoryCellDelegate) {
         self.storyModels = storyModels
+        self.homeDelegate = homeDelegate
         self.storyCellViewModels = getStoryCellViewModels(with: storyModels)
     }
 
     private func getStoryCellViewModels(with stories: [TopStoriesResult]) -> [StoryCellViewModel] {
-        return stories.map { StoryCellViewModel(with: $0) }
+        return stories.map { StoryCellViewModel(with: $0, delegate: homeDelegate) }
     }
 }

@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// This protocol allows a ViewController to be instantiated via the storyboard with ease
 protocol Storyboarded {
     static func instantiate() -> Self
 }
@@ -20,6 +21,18 @@ extension Storyboarded where Self: UIViewController {
     }
 }
 
+
+/// Allows a UIView to be "identifiable", useful for TableViewCells, CollectionViewCells, and the likes
+protocol IdentifiableView: class {}
+
+extension IdentifiableView where Self: UIView {
+
+    static var identifier: String {
+        return String(describing: self)
+    }
+}
+
+/// Displays an error message via UIAlertController and takes in a completion handler
 extension UIViewController {
     func showSomethingWentWrongAlert(title: String? = nil, message: String? = nil, handler: ((UIAlertAction) -> Void)? = nil) {
         let alert = UIAlertController(title: NSLocalizedString(title ?? "Something went wrong",

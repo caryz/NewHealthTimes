@@ -7,6 +7,11 @@
 
 import UIKit
 
+protocol MainCoordinatorDelegate: class {
+    func userDidFavorite(id: String)
+    func userDidUnfavorite(id: String)
+}
+
 class MainAppCoordinator: Coordinator {
     var navigationController: UINavigationController
 
@@ -15,20 +20,28 @@ class MainAppCoordinator: Coordinator {
     }
 
     func start() {
-        let vc = HomeViewController.instantiate()
-        vc.coordinator = self // should be delegate or nothing
+        let homeViewController = HomeViewController.viewController(delegate: self)
 
         TopStoriesAPI().get { (result) in
-            vc.loadingAnimation(false)
+            homeViewController.loadingAnimation(false)
             switch result {
             case .success(let root):
-                vc.homeViewModel = HomeViewModel(with: root.results)
+                homeViewController.homeViewModel = HomeViewModel(with: root.results,
+                                                                 homeDelegate: homeViewController)
             case .failure:
-                vc.showSomethingWentWrongAlert()
+                homeViewController.showSomethingWentWrongAlert()
             }
         }
 
-        navigationController.pushViewController(vc, animated: false)
+        navigationController.pushViewController(homeViewController, animated: false)
     }
 }
 
+/// This illustrates how we can relay events from HomeViewController to the coordinator if needed
+extension MainAppCoordinator: MainCoordinatorDelegate {
+
+    func userDidFavorite(id: String) { } // No Impl
+
+    func userDidUnfavorite(id: String) { } // No Impl
+
+}

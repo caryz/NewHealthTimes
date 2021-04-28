@@ -13,27 +13,29 @@ class HomeViewController: UIViewController, Storyboarded {
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
-    var navBarButton: UIBarButtonItem!
 
-    weak var coordinator: MainAppCoordinator? // make sample delegate or remove this
+    weak var coordinatorDelegate: MainCoordinatorDelegate?
+
     var homeViewModel: HomeViewModel? {
         didSet {
             tableView.reloadSections([0], with: .automatic)
         }
     }
 
+    class func viewController(delegate: MainCoordinatorDelegate?) -> HomeViewController {
+        let viewController = HomeViewController.instantiate()
+        viewController.coordinatorDelegate = delegate
+        return viewController
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        configureNavBar()
+        title = "New Health Times"
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 100
         tableView.dataSource = self
         tableView.delegate = self
         tableView.tableFooterView = UIView()
-    }
-
-    private func configureNavBar() {
-        title = "New Health Times"
     }
 
     func loadingAnimation(_ animating: Bool = true) {
@@ -49,7 +51,8 @@ extension HomeViewController: UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: StoryCell.identifier, for: indexPath) as? StoryCell,
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: StoryCell.identifier,
+                                                       for: indexPath) as? StoryCell,
               let viewModel = homeViewModel?.storyCellViewModels[indexPath.row] else {
             return UITableViewCell()
         }
@@ -70,10 +73,21 @@ extension HomeViewController: UITableViewDelegate {
         navigationController?.pushViewController(webViewContainer, animated: true)
         tableView.deselectRow(at: indexPath, animated: true)
     }
+
 }
 
+/// Brings user back to HomeViewController (rootVC) when an error occurs in loading the WebView
 extension HomeViewController: WebViewContainerDelegate {
     func exitWebViewContainer() {
         navigationController?.popToRootViewController(animated: true)
+    }
+}
+
+/// Shows UIActivityController when user taps on the share button
+extension HomeViewController: StoryCellDelegate {
+    func share(storyUrl: String) {
+        guard let url = URL(string: storyUrl) else { return }
+        let ac = UIActivityViewController(activityItems: [url], applicationActivities: nil)
+        navigationController?.present(ac, animated: true)
     }
 }

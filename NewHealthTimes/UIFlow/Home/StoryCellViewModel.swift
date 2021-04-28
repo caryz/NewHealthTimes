@@ -15,8 +15,9 @@ struct StoryCellViewModel {
     let url: URL?
     let imageUrl: String?
     let imageCopyright: String?
+    let delegate: StoryCellDelegate?
 
-    init(with story: TopStoriesResult) {
+    init(with story: TopStoriesResult, delegate: StoryCellDelegate) {
         title = story.title
         subtitle = story.abstract
         byline = story.byline
@@ -26,5 +27,6 @@ struct StoryCellViewModel {
         let media = story.multimedia.filter { $0.format == .superJumbo }.first
         imageUrl = media?.url
         imageCopyright = media?.copyright
+        self.delegate = delegate
     }
 }
