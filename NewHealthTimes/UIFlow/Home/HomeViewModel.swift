@@ -10,9 +10,9 @@ import Foundation
 struct HomeViewModel {
     var storyModels = [TopStoriesResult]()
     var storyCellViewModels = [StoryCellViewModel]()
-    var homeDelegate: StoryCellDelegate
+    var homeDelegate: StoryCellDelegate?
 
-    init(with storyModels: [TopStoriesResult], homeDelegate: StoryCellDelegate) {
+    init(with storyModels: [TopStoriesResult], homeDelegate: StoryCellDelegate?) {
         self.storyModels = storyModels
         self.homeDelegate = homeDelegate
         self.storyCellViewModels = getStoryCellViewModels(with: storyModels)

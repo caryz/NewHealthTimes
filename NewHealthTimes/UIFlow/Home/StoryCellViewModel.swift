@@ -17,7 +17,7 @@ struct StoryCellViewModel {
     let imageCopyright: String?
     let delegate: StoryCellDelegate?
 
-    init(with story: TopStoriesResult, delegate: StoryCellDelegate) {
+    init(with story: TopStoriesResult, delegate: StoryCellDelegate?) {
         title = story.title
         subtitle = story.abstract
         byline = story.byline

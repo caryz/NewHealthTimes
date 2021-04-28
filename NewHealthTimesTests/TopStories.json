@@ -1,0 +1,2033 @@
+
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2021 The New York Times Company. All Rights Reserved.",
+  "section": "Health",
+  "last_updated": "2021-04-25T14:42:18-04:00",
+  "num_results": 25,
+  "results": [
+    {
+      "section": "us",
+      "subsection": "",
+      "title": "Hester Ford, Oldest American, Dies",
+      "abstract": "She was believed to be either 115 or 116. She experienced two pandemics and two world wars and lived under 21 presidents.",
+      "url": "https://www.nytimes.com/2021/04/26/us/hester-ford-dead.html",
+      "uri": "nyt://article/3f05989c-c396-5bf0-9676-c25223f2c598",
+      "byline": "By Amisha Padnani",
+      "item_type": "Article",
+      "updated_date": "2021-04-26T16:39:12-04:00",
+      "created_date": "2021-04-26T16:39:12-04:00",
+      "published_date": "2021-04-26T16:39:12-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Longevity",
+        "Deaths (Obituaries)",
+        "Elderly"
+      ],
+      "org_facet": [
+        "Gerontology Research Group"
+      ],
+      "per_facet": [
+        "Hester Ford"
+      ],
+      "geo_facet": [
+        "Charlotte (NC)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/obituaries/26Ford1/26Ford1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1363,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Hester Ford in 2016 celebrating her 111th birthday. “She was a reminder of how far we have come as people on this earth,” her great-granddaughter said.",
+          "copyright": "Diedra Laird/The Charlotte Observer, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/obituaries/26Ford1/26Ford1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Hester Ford in 2016 celebrating her 111th birthday. “She was a reminder of how far we have come as people on this earth,” her great-granddaughter said.",
+          "copyright": "Diedra Laird/The Charlotte Observer, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/obituaries/26Ford1/26Ford1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Hester Ford in 2016 celebrating her 111th birthday. “She was a reminder of how far we have come as people on this earth,” her great-granddaughter said.",
+          "copyright": "Diedra Laird/The Charlotte Observer, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/obituaries/26Ford1/26Ford1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Hester Ford in 2016 celebrating her 111th birthday. “She was a reminder of how far we have come as people on this earth,” her great-granddaughter said.",
+          "copyright": "Diedra Laird/The Charlotte Observer, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/obituaries/26Ford1/26Ford1-articleInline.jpg",
+          "format": "Normal",
+          "height": 126,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Hester Ford in 2016 celebrating her 111th birthday. “She was a reminder of how far we have come as people on this earth,” her great-granddaughter said.",
+          "copyright": "Diedra Laird/The Charlotte Observer, via Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/3xzx9rx"
+    },
+    {
+      "section": "us",
+      "subsection": "",
+      "title": "A private school in Miami, citing false claims, bars vaccinated teachers from contact with students.",
+      "abstract": "Centner Academy advertises its support for “medical freedom from mandated vaccines,” and has recently hosted talks by antivaccine advocates.",
+      "url": "https://www.nytimes.com/2021/04/26/us/florida-centner-academy-vaccine.html",
+      "uri": "nyt://article/a57b4cda-252f-5976-9dc0-54bb88fef6cf",
+      "byline": "By Patricia Mazzei",
+      "item_type": "Article",
+      "updated_date": "2021-04-26T16:48:51-04:00",
+      "created_date": "2021-04-26T16:10:18-04:00",
+      "published_date": "2021-04-26T16:10:18-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "internal-essential",
+        "Vaccination and Immunization",
+        "Teachers and School Employees",
+        "Education (K-12)",
+        "Coronavirus (2019-nCoV)"
+      ],
+      "org_facet": [
+        "Centner Academy"
+      ],
+      "per_facet": [
+        "Centner, Leila"
+      ],
+      "geo_facet": [
+        "Miami (Fla)",
+        "Florida"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/world/26virus-briefing-miami-school1/26virus-briefing-miami-school1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Centner Academy in Miami sent teachers a letter repeating false claims that being vaccinated made people a health risk. People waited to receive a shot at Miami Dade College.",
+          "copyright": "Lynne Sladky/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/world/26virus-briefing-miami-school1/26virus-briefing-miami-school1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Centner Academy in Miami sent teachers a letter repeating false claims that being vaccinated made people a health risk. People waited to receive a shot at Miami Dade College.",
+          "copyright": "Lynne Sladky/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/world/26virus-briefing-miami-school1/26virus-briefing-miami-school1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Centner Academy in Miami sent teachers a letter repeating false claims that being vaccinated made people a health risk. People waited to receive a shot at Miami Dade College.",
+          "copyright": "Lynne Sladky/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/world/26virus-briefing-miami-school1/26virus-briefing-miami-school1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Centner Academy in Miami sent teachers a letter repeating false claims that being vaccinated made people a health risk. People waited to receive a shot at Miami Dade College.",
+          "copyright": "Lynne Sladky/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/world/26virus-briefing-miami-school1/26virus-briefing-miami-school1-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Centner Academy in Miami sent teachers a letter repeating false claims that being vaccinated made people a health risk. People waited to receive a shot at Miami Dade College.",
+          "copyright": "Lynne Sladky/Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/2Qq6tsx"
+    },
+    {
+      "section": "us",
+      "subsection": "",
+      "title": "Airline Bars Alaska State Senator Over Mask Policy Violation",
+      "abstract": "Alaska Airlines said it had suspended State Senator Lora Reinbold from flying because she refused to comply with its mask rules.",
+      "url": "https://www.nytimes.com/2021/04/26/us/alaska-airlines-senator-banned-lora-reinbold.html",
+      "uri": "nyt://article/5db58cd9-24d4-509a-bff2-196dff7ae115",
+      "byline": "By Jesus Jiménez",
+      "item_type": "Article",
+      "updated_date": "2021-04-26T18:08:11-04:00",
+      "created_date": "2021-04-26T15:35:46-04:00",
+      "published_date": "2021-04-26T15:35:46-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Airlines and Airplanes",
+        "Protective Clothing and Gear",
+        "Coronavirus (2019-nCoV)",
+        "Masks"
+      ],
+      "org_facet": [
+        "Alaska Airlines"
+      ],
+      "per_facet": [
+        "Reinbold, Lora"
+      ],
+      "geo_facet": [
+        "Alaska"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/27/multimedia/26xp-Alaska-print/merlin_186894153_2eb26ffb-1b84-4592-8dc1-bb37550d346a-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Lora Reinbold, an Alaska state senator barred by Alaska Airlines, said there was &ldquo;no due process&rdquo; before the decision.",
+          "copyright": "Becky Bohrer/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/27/multimedia/26xp-Alaska-print/26xp-Alaska1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Lora Reinbold, an Alaska state senator barred by Alaska Airlines, said there was &ldquo;no due process&rdquo; before the decision.",
+          "copyright": "Becky Bohrer/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/27/multimedia/26xp-Alaska-print/26xp-Alaska1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Lora Reinbold, an Alaska state senator barred by Alaska Airlines, said there was &ldquo;no due process&rdquo; before the decision.",
+          "copyright": "Becky Bohrer/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/27/multimedia/26xp-Alaska-print/merlin_186894153_2eb26ffb-1b84-4592-8dc1-bb37550d346a-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Lora Reinbold, an Alaska state senator barred by Alaska Airlines, said there was &ldquo;no due process&rdquo; before the decision.",
+          "copyright": "Becky Bohrer/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/27/multimedia/26xp-Alaska-print/merlin_186894153_2eb26ffb-1b84-4592-8dc1-bb37550d346a-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Lora Reinbold, an Alaska state senator barred by Alaska Airlines, said there was &ldquo;no due process&rdquo; before the decision.",
+          "copyright": "Becky Bohrer/Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/3noz2Cn"
+    },
+    {
+      "section": "world",
+      "subsection": "asia",
+      "title": "Amid Second Virus Wave, the World Responds to India’s Distress Call",
+      "abstract": "Countries, companies and powerful members of the diaspora have all pledged to pitch in, but it likely won’t be enough to stop the unfolding catastrophe.",
+      "url": "https://www.nytimes.com/2021/04/26/world/asia/india-covid-vaccine-world-response.html",
+      "uri": "nyt://article/f17d6047-b3bd-5006-bc68-7bed7bd0e12a",
+      "byline": "By Emily Schmall and Karan Deep Singh",
+      "item_type": "Article",
+      "updated_date": "2021-04-26T16:54:53-04:00",
+      "created_date": "2021-04-26T15:01:03-04:00",
+      "published_date": "2021-04-26T15:01:03-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Coronavirus (2019-nCoV)",
+        "Shortages",
+        "Vaccination and Immunization"
+      ],
+      "org_facet": [
+        "AstraZeneca PLC",
+        "Serum Institute of India"
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Poonawalla, Adar (1981- )"
+      ],
+      "geo_facet": [
+        "India"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/world/26virus-india-aid1/merlin_186899526_908d6228-e58e-4854-b9fe-bc0d602505f1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A man receiving oxygen outside a Sikh house of worship in Delhi on Sunday.",
+          "copyright": "Atul Loke for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/world/26virus-india-aid1/26virus-india-aid1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A man receiving oxygen outside a Sikh house of worship in Delhi on Sunday.",
+          "copyright": "Atul Loke for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/world/26virus-india-aid1/26virus-india-aid1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A man receiving oxygen outside a Sikh house of worship in Delhi on Sunday.",
+          "copyright": "Atul Loke for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/world/26virus-india-aid1/merlin_186899526_908d6228-e58e-4854-b9fe-bc0d602505f1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A man receiving oxygen outside a Sikh house of worship in Delhi on Sunday.",
+          "copyright": "Atul Loke for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/world/26virus-india-aid1/merlin_186899526_908d6228-e58e-4854-b9fe-bc0d602505f1-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A man receiving oxygen outside a Sikh house of worship in Delhi on Sunday.",
+          "copyright": "Atul Loke for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3nlB9qP"
+    },
+    {
+      "section": "travel",
+      "subsection": "",
+      "title": "A Look at Covid-19 Vaccine ‘Passports,’ Passes and Apps Around the Globe",
+      "abstract": "A variety of digital and old-fashioned approaches are being used  to confirm  vaccination for entry to public places. But the world is still far from a universal standard of proof for crossing borders.",
+      "url": "https://www.nytimes.com/2021/04/26/travel/vaccine-passport-cards-apps.html",
+      "uri": "nyt://article/ae03af1e-3ee0-50ac-8c8a-da059236d7b2",
+      "byline": "By Heather Murphy",
+      "item_type": "Article",
+      "updated_date": "2021-04-26T16:27:57-04:00",
+      "created_date": "2021-04-26T11:44:51-04:00",
+      "published_date": "2021-04-26T11:44:51-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Coronavirus Reopenings",
+        "Vaccination and Immunization",
+        "Vaccination Proof and Immunization Records"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/00XP-VACCINE-PROOF/00XP-VACCINE-PROOF-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 2010,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Dutch app, which is currently in development, will never show a bouncer why a person produced a large green tick mark or a red “bar code cannot be read” to try to minimize awkwardness. ",
+          "copyright": "Ivo Jansch/Egeniq "
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/00XP-VACCINE-PROOF/00XP-VACCINE-PROOF-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Dutch app, which is currently in development, will never show a bouncer why a person produced a large green tick mark or a red “bar code cannot be read” to try to minimize awkwardness. ",
+          "copyright": "Ivo Jansch/Egeniq "
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/00XP-VACCINE-PROOF/00XP-VACCINE-PROOF-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Dutch app, which is currently in development, will never show a bouncer why a person produced a large green tick mark or a red “bar code cannot be read” to try to minimize awkwardness. ",
+          "copyright": "Ivo Jansch/Egeniq "
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/00XP-VACCINE-PROOF/00XP-VACCINE-PROOF-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Dutch app, which is currently in development, will never show a bouncer why a person produced a large green tick mark or a red “bar code cannot be read” to try to minimize awkwardness. ",
+          "copyright": "Ivo Jansch/Egeniq "
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/00XP-VACCINE-PROOF/00XP-VACCINE-PROOF-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Dutch app, which is currently in development, will never show a bouncer why a person produced a large green tick mark or a red “bar code cannot be read” to try to minimize awkwardness. ",
+          "copyright": "Ivo Jansch/Egeniq "
+        }
+      ],
+      "short_url": "https://nyti.ms/3tSgqNC"
+    },
+    {
+      "section": "well",
+      "subsection": "live",
+      "title": "Crohn’s Disease Is on the Rise",
+      "abstract": "Many think the abdominal disorder starts in childhood, but it can occur at any age and is becoming more prevalent throughout the world.",
+      "url": "https://www.nytimes.com/2021/04/26/well/live/crohns-disease.html",
+      "uri": "nyt://article/7ef0cb12-4e10-5c8d-bfd0-187b12bfd803",
+      "byline": "By Jane E. Brody",
+      "item_type": "Article",
+      "updated_date": "2021-04-26T09:25:16-04:00",
+      "created_date": "2021-04-26T05:00:11-04:00",
+      "published_date": "2021-04-26T05:00:11-04:00",
+      "material_type_facet": "",
+      "kicker": "Personal Health",
+      "des_facet": [
+        "Crohn's Disease",
+        "Bowels",
+        "Drugs (Pharmaceuticals)",
+        "Digestive Tract",
+        "Colon"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/27/science/26SCI-BRODY-CROHNS/26SCI-BRODY-CROHNS-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1302,
+          "width": 1965,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Gracia Lam"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/27/science/26SCI-BRODY-CROHNS/26SCI-BRODY-CROHNS-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Gracia Lam"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/27/science/26SCI-BRODY-CROHNS/26SCI-BRODY-CROHNS-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Gracia Lam"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/27/science/26SCI-BRODY-CROHNS/26SCI-BRODY-CROHNS-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Gracia Lam"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/27/science/26SCI-BRODY-CROHNS/26SCI-BRODY-CROHNS-articleInline.jpg",
+          "format": "Normal",
+          "height": 126,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Gracia Lam"
+        }
+      ],
+      "short_url": "https://nyti.ms/32RNcm0"
+    },
+    {
+      "section": "well",
+      "subsection": "eat",
+      "title": "5 Takeaways From the New Food Allergy Law",
+      "abstract": "Sesame becomes a “major allergen,” joining milk, eggs, fish, shellfish, tree nuts, peanuts, wheat and soybeans.",
+      "url": "https://www.nytimes.com/2021/04/26/well/eat/food-allergy-law-sesame.html",
+      "uri": "nyt://article/57a3f8ed-60b8-5d2a-b2ad-c595000f1ca3",
+      "byline": "By Eric Athas",
+      "item_type": "Article",
+      "updated_date": "2021-04-26T05:00:09-04:00",
+      "created_date": "2021-04-26T05:00:09-04:00",
+      "published_date": "2021-04-26T05:00:09-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Allergies",
+        "Labeling and Labels (Product)",
+        "Peanuts",
+        "Anaphylactic Shock",
+        "Food",
+        "Content Type: Service",
+        "Nuts",
+        "Law and Legislation",
+        "Sesame Seeds"
+      ],
+      "org_facet": [
+        "Food and Drug Administration"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/well/WELL-ALLERGIES/WELL-ALLERGIES-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1039,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/well/WELL-ALLERGIES/WELL-ALLERGIES-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/well/WELL-ALLERGIES/WELL-ALLERGIES-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/well/WELL-ALLERGIES/WELL-ALLERGIES-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/well/WELL-ALLERGIES/WELL-ALLERGIES-articleInline.jpg",
+          "format": "Normal",
+          "height": 96,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Getty Images"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "health",
+      "subsection": "",
+      "title": "Fauci and other top U.S. health officials stress the urgency of vaccinations and their safety.",
+      "abstract": "Now that the J&J pause has lifted, the government is pushing to get most adult Americans inoculated this summer.",
+      "url": "https://www.nytimes.com/2021/04/25/health/fauci-vaccines-safety.html",
+      "uri": "nyt://article/a2ce727f-29bb-539e-a98b-27c44bbab7b5",
+      "byline": "By Kenneth Chang",
+      "item_type": "Article",
+      "updated_date": "2021-04-26T02:33:38-04:00",
+      "created_date": "2021-04-25T14:00:32-04:00",
+      "published_date": "2021-04-25T14:00:32-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "internal-essential",
+        "Coronavirus Risks and Safety Concerns",
+        "Vaccination and Immunization",
+        "Coronavirus (2019-nCoV)"
+      ],
+      "org_facet": [
+        "Centers for Disease Control and Prevention",
+        "Johnson & Johnson",
+        "National Institutes of Health"
+      ],
+      "per_facet": [
+        "Fauci, Anthony S",
+        "Collins, Francis S"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/us/25virus-briefing-vaccines1/25virus-briefing-vaccines1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A pop-up vaccination center at a mosque in Newark on Friday.",
+          "copyright": "James Estrin/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/us/25virus-briefing-vaccines1/25virus-briefing-vaccines1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A pop-up vaccination center at a mosque in Newark on Friday.",
+          "copyright": "James Estrin/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/us/25virus-briefing-vaccines1/25virus-briefing-vaccines1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A pop-up vaccination center at a mosque in Newark on Friday.",
+          "copyright": "James Estrin/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/us/25virus-briefing-vaccines1/25virus-briefing-vaccines1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A pop-up vaccination center at a mosque in Newark on Friday.",
+          "copyright": "James Estrin/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/us/25virus-briefing-vaccines1/25virus-briefing-vaccines1-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A pop-up vaccination center at a mosque in Newark on Friday.",
+          "copyright": "James Estrin/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3dOmIYV"
+    },
+    {
+      "section": "us",
+      "subsection": "",
+      "title": "$1 Million in Toxic Bleach Sold as ‘Miracle’ Cure, Officials Say",
+      "abstract": "A Florida grand jury indicted a man and his three sons, accusing them of marketing an “unproven and potentially harmful” solution as a remedy for Covid-19, cancer, autism and more.",
+      "url": "https://www.nytimes.com/2021/04/25/us/miracle-bleach-cure-covid-19.html",
+      "uri": "nyt://article/11c8bf91-f8a1-51fd-b2e3-0596ecee614a",
+      "byline": "By Christina Morales",
+      "item_type": "Article",
+      "updated_date": "2021-04-26T19:08:07-04:00",
+      "created_date": "2021-04-25T13:06:17-04:00",
+      "published_date": "2021-04-25T13:06:17-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Rumors and Misinformation",
+        "Poisoning and Poisons",
+        "Frauds and Swindling",
+        "Fringe Groups and Movements"
+      ],
+      "org_facet": [
+        "Food and Drug Administration",
+        "Genesis II Church of Health and Healing"
+      ],
+      "per_facet": [
+        "Grenon, Jonathan (1985- )",
+        "Grenon, Joseph (1988- )",
+        "Grenon, Mark (1957- )",
+        "Grenon, Jordan (1994- )"
+      ],
+      "geo_facet": [
+        "Bradenton (Fla)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/24/multimedia/24xp-Miracle-grenon-1/merlin_186824562_a1edca5e-0ed5-47f3-8230-c684533b5c49-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1296,
+          "width": 1570,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Genesis II Church of Healing placed consumers at risk “by peddling potentially dangerous and unapproved chlorine dioxide products,” the F.D.A. said.",
+          "copyright": "United States District Court for the Southern District of Florida"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/24/multimedia/24xp-Miracle-grenon-1/merlin_186824562_a1edca5e-0ed5-47f3-8230-c684533b5c49-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Genesis II Church of Healing placed consumers at risk “by peddling potentially dangerous and unapproved chlorine dioxide products,” the F.D.A. said.",
+          "copyright": "United States District Court for the Southern District of Florida"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/24/multimedia/24xp-Miracle-grenon-1/merlin_186824562_a1edca5e-0ed5-47f3-8230-c684533b5c49-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Genesis II Church of Healing placed consumers at risk “by peddling potentially dangerous and unapproved chlorine dioxide products,” the F.D.A. said.",
+          "copyright": "United States District Court for the Southern District of Florida"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/24/multimedia/24xp-Miracle-grenon-1/merlin_186824562_a1edca5e-0ed5-47f3-8230-c684533b5c49-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Genesis II Church of Healing placed consumers at risk “by peddling potentially dangerous and unapproved chlorine dioxide products,” the F.D.A. said.",
+          "copyright": "United States District Court for the Southern District of Florida"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/24/multimedia/24xp-Miracle-grenon-1/merlin_186824562_a1edca5e-0ed5-47f3-8230-c684533b5c49-articleInline.jpg",
+          "format": "Normal",
+          "height": 157,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Genesis II Church of Healing placed consumers at risk “by peddling potentially dangerous and unapproved chlorine dioxide products,” the F.D.A. said.",
+          "copyright": "United States District Court for the Southern District of Florida"
+        }
+      ],
+      "short_url": "https://nyti.ms/3niV8X7"
+    },
+    {
+      "section": "business",
+      "subsection": "",
+      "title": "Millions Are Skipping Their Second Doses of Covid Vaccines",
+      "abstract": "Nearly 8 percent of those who got initial Pfizer or Moderna shots missed their second doses. State officials want to prevent the numbers from rising.",
+      "url": "https://www.nytimes.com/2021/04/25/business/covid-vaccines-second-doses.html",
+      "uri": "nyt://article/110416cd-dd0a-58ed-aab1-399d16476071",
+      "byline": "By Rebecca Robbins",
+      "item_type": "Article",
+      "updated_date": "2021-04-26T13:00:42-04:00",
+      "created_date": "2021-04-25T05:00:10-04:00",
+      "published_date": "2021-04-25T05:00:10-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Coronavirus (2019-nCoV)",
+        "Vaccination and Immunization",
+        "Drugs (Pharmaceuticals)"
+      ],
+      "org_facet": [
+        "Centers for Disease Control and Prevention",
+        "Moderna Inc",
+        "Pfizer Inc",
+        "Walgreen Co"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "United States"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/business/00Virus-Doses-01/merlin_186604812_a38b6576-e784-4bf0-985f-293733bfddb0-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1277,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Syringes with the Pfizer vaccine are ready to be distributed in Dearborn, Mich.",
+          "copyright": "Emily Rose Bennett for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/business/00Virus-Doses-01/merlin_186604812_a38b6576-e784-4bf0-985f-293733bfddb0-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Syringes with the Pfizer vaccine are ready to be distributed in Dearborn, Mich.",
+          "copyright": "Emily Rose Bennett for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/business/00Virus-Doses-01/merlin_186604812_a38b6576-e784-4bf0-985f-293733bfddb0-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Syringes with the Pfizer vaccine are ready to be distributed in Dearborn, Mich.",
+          "copyright": "Emily Rose Bennett for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/business/00Virus-Doses-01/merlin_186604812_a38b6576-e784-4bf0-985f-293733bfddb0-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Syringes with the Pfizer vaccine are ready to be distributed in Dearborn, Mich.",
+          "copyright": "Emily Rose Bennett for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/business/00Virus-Doses-01/merlin_186604812_a38b6576-e784-4bf0-985f-293733bfddb0-articleInline.jpg",
+          "format": "Normal",
+          "height": 118,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Syringes with the Pfizer vaccine are ready to be distributed in Dearborn, Mich.",
+          "copyright": "Emily Rose Bennett for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3gDYym2"
+    },
+    {
+      "section": "at-home",
+      "subsection": "",
+      "title": "Look How Far Weave Come",
+      "abstract": "On the first anniversary of the At Home section, zigzag through this puzzle to reveal the twist.",
+      "url": "https://www.nytimes.com/2021/04/24/at-home/puzzle-activity.html",
+      "uri": "nyt://article/40a22b0e-a54d-575c-b12a-07334255653d",
+      "byline": "By Andrew Dore and Robert Vinluan",
+      "item_type": "Article",
+      "updated_date": "2021-04-24T23:59:09-04:00",
+      "created_date": "2021-04-24T23:59:09-04:00",
+      "published_date": "2021-04-24T23:59:09-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Quarantine (Life and Culture)",
+        "Content Type: Service",
+        "Puzzles",
+        "Games"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25ah-games-top-art/25ah-games-top-art-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1033,
+          "width": 1546,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Robert Vinluan"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25ah-games-top-art/25ah-games-top-art-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Robert Vinluan"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25ah-games-top-art/25ah-games-top-art-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Robert Vinluan"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25ah-games-top-art/25ah-games-top-art-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Robert Vinluan"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25ah-games-top-art/25ah-games-top-art-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Robert Vinluan"
+        }
+      ],
+      "short_url": "https://nyti.ms/3aDsYB0"
+    },
+    {
+      "section": "at-home",
+      "subsection": "",
+      "title": "Teach Your Kids to Resist Hatred Toward Asians",
+      "abstract": "Books make great educational resources to combat discrimination and xenophobia, and to foster activism.",
+      "url": "https://www.nytimes.com/2021/04/24/at-home/anti-asian-hate-books.html",
+      "uri": "nyt://article/1d80f68d-4644-5de9-a9d6-70ffc68916a8",
+      "byline": "By Michelle Lee",
+      "item_type": "Article",
+      "updated_date": "2021-04-26T12:56:09-04:00",
+      "created_date": "2021-04-24T23:42:14-04:00",
+      "published_date": "2021-04-24T23:42:14-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Quarantine (Life and Culture)",
+        "Content Type: Service",
+        "Discrimination",
+        "Race and Ethnicity",
+        "Books and Literature",
+        "Children and Childhood",
+        "Teenagers and Adolescence",
+        "Asian-Americans"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25ah-antiasian-books/25ah-antiasian-books-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25ah-antiasian-books/25ah-antiasian-books-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25ah-antiasian-books/25ah-antiasian-books-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25ah-antiasian-books/25ah-antiasian-books-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25ah-antiasian-books/25ah-antiasian-books-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        }
+      ],
+      "short_url": "https://nyti.ms/2S0F0xU"
+    },
+    {
+      "section": "travel",
+      "subsection": "",
+      "title": "How to Get Back Into the Job Market",
+      "abstract": "Many job seekers don’t know where to look after the year we’ve just had. If you count yourself among this crowd, here’s how to get back into the market, even if you’re feeling rusty.",
+      "url": "https://www.nytimes.com/2021/04/24/travel/job-market-tips.html",
+      "uri": "nyt://article/95daffef-35d0-50f8-a828-a12828c9de3d",
+      "byline": "By Charlotte Cowles",
+      "item_type": "Article",
+      "updated_date": "2021-04-25T09:16:00-04:00",
+      "created_date": "2021-04-24T23:23:07-04:00",
+      "published_date": "2021-04-24T23:23:07-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Content Type: Service",
+        "Hiring and Promotion",
+        "Quarantine (Life and Culture)",
+        "Careers and Professions",
+        "Labor and Jobs"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25AH-GETAJOBCOLOR/25AH-GETAJOBCOLOR-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1346,
+          "width": 2025,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Miguel Porlan"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25AH-GETAJOBCOLOR/25AH-GETAJOBCOLOR-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Miguel Porlan"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25AH-GETAJOBCOLOR/25AH-GETAJOBCOLOR-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Miguel Porlan"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25AH-GETAJOBCOLOR/25AH-GETAJOBCOLOR-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Miguel Porlan"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25AH-GETAJOBCOLOR/25AH-GETAJOBCOLOR-articleInline.jpg",
+          "format": "Normal",
+          "height": 126,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Miguel Porlan"
+        }
+      ],
+      "short_url": "https://nyti.ms/3xpVcJ2"
+    },
+    {
+      "section": "at-home",
+      "subsection": "",
+      "title": "Explore Coral Reefs and Enjoy Flower Arrangements Inspired by Art",
+      "abstract": "This week, watch a puppetry performance, break your Ramadan fast with a virtual open mic and iftar or listen to music from Yosmel Montejo and Vox Sambou.",
+      "url": "https://www.nytimes.com/2021/04/24/at-home/things-to-do-this-week.html",
+      "uri": "nyt://article/bcb01e9c-c9bb-5b09-855d-02fa4761bb99",
+      "byline": "By Emma Grillo and Danya Issawi",
+      "item_type": "Article",
+      "updated_date": "2021-04-24T23:01:09-04:00",
+      "created_date": "2021-04-24T23:01:09-04:00",
+      "published_date": "2021-04-24T23:01:09-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Quarantine (Life and Culture)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25ah-CALENDARNOAA/25ah-CALENDARNOAA-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 525,
+          "width": 525,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Miguel Porlan"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25ah-CALENDARNOAA/25ah-CALENDARNOAA-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Miguel Porlan"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25ah-CALENDARNOAA/25ah-CALENDARNOAA-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Miguel Porlan"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25ah-CALENDARNOAA/25ah-CALENDARNOAA-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Miguel Porlan"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/25/multimedia/25ah-CALENDARNOAA/25ah-CALENDARNOAA-articleInline.jpg",
+          "format": "Normal",
+          "height": 190,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Miguel Porlan"
+        }
+      ],
+      "short_url": "https://nyti.ms/3xpilLE"
+    },
+    {
+      "section": "health",
+      "subsection": "",
+      "title": "J.&.J. Vaccine Will Be Available Again Soon",
+      "abstract": "U.S. experts weigh the risks for younger women and cases of a rare blood-clotting disorder, and lift the pause in giving the one-shot vaccine.",
+      "url": "https://www.nytimes.com/2021/04/23/health/johnson-vaccine-resume.html",
+      "uri": "nyt://article/4f6c3449-182e-5864-969e-0c3570723755",
+      "byline": "By Denise Grady, Julie Bosman and Noah Weiland",
+      "item_type": "Article",
+      "updated_date": "2021-04-24T09:41:23-04:00",
+      "created_date": "2021-04-23T21:51:32-04:00",
+      "published_date": "2021-04-23T21:51:32-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Blood Clots",
+        "Vaccination and Immunization",
+        "Coronavirus (2019-nCoV)",
+        "Women and Girls",
+        "Coronavirus Risks and Safety Concerns",
+        "your-feed-healthcare"
+      ],
+      "org_facet": [
+        "Johnson & Johnson",
+        "Centers for Disease Control and Prevention",
+        "Food and Drug Administration"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/science/23VIRUS-JJVACCINE-PAUSE1/merlin_186129366_98ba3062-eb5c-4536-a88a-32e20cc83493-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nurses prepared doses of the Johnson &amp; Johnson vaccine at a site on Staten Island this month.",
+          "copyright": "Mary Altaffer/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/science/23VIRUS-JJVACCINE-PAUSE1/23VIRUS-JJVACCINE-PAUSE1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nurses prepared doses of the Johnson &amp; Johnson vaccine at a site on Staten Island this month.",
+          "copyright": "Mary Altaffer/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/science/23VIRUS-JJVACCINE-PAUSE1/23VIRUS-JJVACCINE-PAUSE1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nurses prepared doses of the Johnson &amp; Johnson vaccine at a site on Staten Island this month.",
+          "copyright": "Mary Altaffer/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/science/23VIRUS-JJVACCINE-PAUSE1/23VIRUS-JJVACCINE-PAUSE1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nurses prepared doses of the Johnson &amp; Johnson vaccine at a site on Staten Island this month.",
+          "copyright": "Mary Altaffer/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/science/23VIRUS-JJVACCINE-PAUSE1/23VIRUS-JJVACCINE-PAUSE1-articleInline.jpg",
+          "format": "Normal",
+          "height": 133,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nurses prepared doses of the Johnson &amp; Johnson vaccine at a site on Staten Island this month.",
+          "copyright": "Mary Altaffer/Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/3tP8vAD"
+    },
+    {
+      "section": "sports",
+      "subsection": "",
+      "title": "Nick Springer, Paralympic Gold Medalist, Dies at 35",
+      "abstract": "A quadruple amputee, he was a relentless defender on the United States’ wheelchair rugby team, which won a gold medal at the 2008 Paralympics in Beijing.",
+      "url": "https://www.nytimes.com/2021/04/23/sports/nick-springer-dead.html",
+      "uri": "nyt://article/afa4c6c9-4900-5ba0-9539-80e5f81de823",
+      "byline": "By Richard Sandomir",
+      "item_type": "Article",
+      "updated_date": "2021-04-26T11:55:39-04:00",
+      "created_date": "2021-04-23T18:21:52-04:00",
+      "published_date": "2021-04-23T18:21:52-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Deaths (Obituaries)",
+        "Disabilities",
+        "Rugby",
+        "Meningococcal Meningitis",
+        "Paralympic Games"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Springer, Nick"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/22/obituaries/22Springer1/merlin_186641685_cb8f06fe-e718-426c-93a8-9f6f8dfd6a4f-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 2048,
+          "width": 1564,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nick Springer in 2012 during the Paralympics in London. He took up wheelchair rugby in 2003, telling his father, “‘Dad, I think I can be really good at this.’”",
+          "copyright": "Mike Ehrmann/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/22/obituaries/22Springer1/22Springer1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nick Springer in 2012 during the Paralympics in London. He took up wheelchair rugby in 2003, telling his father, “‘Dad, I think I can be really good at this.’”",
+          "copyright": "Mike Ehrmann/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/22/obituaries/22Springer1/22Springer1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nick Springer in 2012 during the Paralympics in London. He took up wheelchair rugby in 2003, telling his father, “‘Dad, I think I can be really good at this.’”",
+          "copyright": "Mike Ehrmann/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/22/obituaries/22Springer1/22Springer1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nick Springer in 2012 during the Paralympics in London. He took up wheelchair rugby in 2003, telling his father, “‘Dad, I think I can be really good at this.’”",
+          "copyright": "Mike Ehrmann/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/22/obituaries/22Springer1/merlin_186641685_cb8f06fe-e718-426c-93a8-9f6f8dfd6a4f-articleInline.jpg",
+          "format": "Normal",
+          "height": 249,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nick Springer in 2012 during the Paralympics in London. He took up wheelchair rugby in 2003, telling his father, “‘Dad, I think I can be really good at this.’”",
+          "copyright": "Mike Ehrmann/Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/3vcOvIw"
+    },
+    {
+      "section": "health",
+      "subsection": "",
+      "title": "Many Covid patients have new ailments months after recovering from mild cases, a C.D.C. study finds.",
+      "abstract": "Two-thirds of those in the study sought medical care a month to six months afterward, and about two-thirds of those who sought care were found to have an entirely new medical condition.",
+      "url": "https://www.nytimes.com/2021/04/23/health/cdc-covid-long-term-effects.html",
+      "uri": "nyt://article/c44df5cd-f7b9-592e-8dab-c0eaebb9a8c3",
+      "byline": "By Roni Caryn Rabin",
+      "item_type": "Article",
+      "updated_date": "2021-04-25T09:05:59-04:00",
+      "created_date": "2021-04-23T15:51:02-04:00",
+      "published_date": "2021-04-23T15:51:02-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Chronic Condition (Health)",
+        "Coronavirus (2019-nCoV)",
+        "internal-essential"
+      ],
+      "org_facet": [
+        "Centers for Disease Control and Prevention",
+        "Kaiser Permanente"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/us/23virus-briefing-CDC-infections-1/merlin_182988204_ddfe2373-fa62-433d-827d-1032196b0bc2-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A mobile Covid-19 walk-up testing site in Los Angeles. A new study says that many adults who have mild cases of Covid-19 can, months later, receive diagnoses of new ailments.",
+          "copyright": "Philip Cheung for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/us/23virus-briefing-CDC-infections-1/23virus-briefing-CDC-infections-1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A mobile Covid-19 walk-up testing site in Los Angeles. A new study says that many adults who have mild cases of Covid-19 can, months later, receive diagnoses of new ailments.",
+          "copyright": "Philip Cheung for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/us/23virus-briefing-CDC-infections-1/23virus-briefing-CDC-infections-1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A mobile Covid-19 walk-up testing site in Los Angeles. A new study says that many adults who have mild cases of Covid-19 can, months later, receive diagnoses of new ailments.",
+          "copyright": "Philip Cheung for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/us/23virus-briefing-CDC-infections-1/merlin_182988204_ddfe2373-fa62-433d-827d-1032196b0bc2-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A mobile Covid-19 walk-up testing site in Los Angeles. A new study says that many adults who have mild cases of Covid-19 can, months later, receive diagnoses of new ailments.",
+          "copyright": "Philip Cheung for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/us/23virus-briefing-CDC-infections-1/merlin_182988204_ddfe2373-fa62-433d-827d-1032196b0bc2-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A mobile Covid-19 walk-up testing site in Los Angeles. A new study says that many adults who have mild cases of Covid-19 can, months later, receive diagnoses of new ailments.",
+          "copyright": "Philip Cheung for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3epmMxD"
+    },
+    {
+      "section": "well",
+      "subsection": "mind",
+      "title": "Are You Struggling With Feelings of Guilt?",
+      "abstract": "Tell us how the pandemic has contributed to the guilt that you are experiencing. You may be contacted by a reporter for inclusion in an upcoming article.",
+      "url": "https://www.nytimes.com/2021/04/23/well/mind/guilt-covid-pandemic.html",
+      "uri": "nyt://article/65ec3ea8-ecad-5d0d-9c49-487bc9877907",
+      "byline": "By Christina Caron",
+      "item_type": "Article",
+      "updated_date": "2021-04-23T15:39:43-04:00",
+      "created_date": "2021-04-23T15:39:43-04:00",
+      "published_date": "2021-04-23T15:39:43-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Coronavirus (2019-nCoV)",
+        "Emotions"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/well/23Well-Guilt-Callout/23Well-Guilt-Callout-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/well/23Well-Guilt-Callout/23Well-Guilt-Callout-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/well/23Well-Guilt-Callout/23Well-Guilt-Callout-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/well/23Well-Guilt-Callout/23Well-Guilt-Callout-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/well/23Well-Guilt-Callout/23Well-Guilt-Callout-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/2RV5VuR"
+    },
+    {
+      "section": "health",
+      "subsection": "",
+      "title": "A new study hints at a reason the J.&J. and AstraZeneca vaccines may cause blood clots in rare cases.",
+      "abstract": "A panel of experts advising the Centers for Disease Control and Prevention is discussing rare blood clots that health officials have investigated in Johnson & Johnson coronavirus vaccine recipients.",
+      "url": "https://www.nytimes.com/2021/04/23/health/astrazeneca-johnson-covid-vaccine-blood-clots.html",
+      "uri": "nyt://article/5e19c883-7af1-5fe5-a727-5287a1adb61a",
+      "byline": "By Carl Zimmer",
+      "item_type": "Article",
+      "updated_date": "2021-04-26T11:52:58-04:00",
+      "created_date": "2021-04-23T14:02:09-04:00",
+      "published_date": "2021-04-23T14:02:09-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "internal-essential",
+        "Vaccination and Immunization",
+        "Blood Clots",
+        "Coronavirus (2019-nCoV)"
+      ],
+      "org_facet": [
+        "AstraZeneca PLC"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/us/23virus-briefing-clots/23virus-briefing-clots-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1321,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Centers for Disease Control and Prevention is recommending lifting the pause on the Johnson & Johnson Covid-19 vaccine for all adults while adding a warning label.",
+          "copyright": "Alessandro Grassani for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/us/23virus-briefing-clots/23virus-briefing-clots-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Centers for Disease Control and Prevention is recommending lifting the pause on the Johnson & Johnson Covid-19 vaccine for all adults while adding a warning label.",
+          "copyright": "Alessandro Grassani for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/us/23virus-briefing-clots/23virus-briefing-clots-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Centers for Disease Control and Prevention is recommending lifting the pause on the Johnson & Johnson Covid-19 vaccine for all adults while adding a warning label.",
+          "copyright": "Alessandro Grassani for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/us/23virus-briefing-clots/23virus-briefing-clots-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Centers for Disease Control and Prevention is recommending lifting the pause on the Johnson & Johnson Covid-19 vaccine for all adults while adding a warning label.",
+          "copyright": "Alessandro Grassani for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/us/23virus-briefing-clots/23virus-briefing-clots-articleInline.jpg",
+          "format": "Normal",
+          "height": 123,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Centers for Disease Control and Prevention is recommending lifting the pause on the Johnson & Johnson Covid-19 vaccine for all adults while adding a warning label.",
+          "copyright": "Alessandro Grassani for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/32K49Pj"
+    },
+    {
+      "section": "health",
+      "subsection": "",
+      "title": "The F.D.A. ended its recommended pause on the J.&J. vaccine, clearing the way for states to use it again.",
+      "abstract": "The agency will revise the vaccine’s label to note the potential risk of rare blood clots.",
+      "url": "https://www.nytimes.com/2021/04/23/health/johnson-covid-vaccine-blood-clots.html",
+      "uri": "nyt://article/6f59d029-ba58-5543-9315-784d59b81ac1",
+      "byline": "By Emily Anthes, Carl Zimmer and Noah Weiland",
+      "item_type": "Article",
+      "updated_date": "2021-04-24T07:20:21-04:00",
+      "created_date": "2021-04-23T05:02:49-04:00",
+      "published_date": "2021-04-23T05:02:49-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "internal-essential",
+        "Blood Clots",
+        "Vaccination and Immunization",
+        "Coronavirus (2019-nCoV)",
+        "Labeling and Labels (Product)"
+      ],
+      "org_facet": [
+        "Advisory Committee on Immunization Practices",
+        "Centers for Disease Control and Prevention"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/us/23virus-briefing-JNJ-meeting-1/merlin_184619844_18e035e7-91a1-4f02-ad93-35fee5ff50ac-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A vial containing doses of the Johnson & Johnson Covid-19 vaccine.",
+          "copyright": "Bryan Anselm for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/us/23virus-briefing-JNJ-meeting-1/23virus-briefing-JNJ-meeting-1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A vial containing doses of the Johnson & Johnson Covid-19 vaccine.",
+          "copyright": "Bryan Anselm for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/us/23virus-briefing-JNJ-meeting-1/23virus-briefing-JNJ-meeting-1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A vial containing doses of the Johnson & Johnson Covid-19 vaccine.",
+          "copyright": "Bryan Anselm for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/us/23virus-briefing-JNJ-meeting-1/merlin_184619844_18e035e7-91a1-4f02-ad93-35fee5ff50ac-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A vial containing doses of the Johnson & Johnson Covid-19 vaccine.",
+          "copyright": "Bryan Anselm for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/us/23virus-briefing-JNJ-meeting-1/merlin_184619844_18e035e7-91a1-4f02-ad93-35fee5ff50ac-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A vial containing doses of the Johnson & Johnson Covid-19 vaccine.",
+          "copyright": "Bryan Anselm for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3sNbeco"
+    },
+    {
+      "section": "science",
+      "subsection": "",
+      "title": "Now launching to the space station: Vaccinated astronauts.",
+      "abstract": "All four members of SpaceX's Crew-2 mission got their shots recently.",
+      "url": "https://www.nytimes.com/2021/04/23/science/astronauts-covid-vaccine.html",
+      "uri": "nyt://article/fe904bb5-50c5-5c0e-9a1c-bdd1cbdc7226",
+      "byline": "By Kenneth Chang",
+      "item_type": "Article",
+      "updated_date": "2021-04-23T17:41:48-04:00",
+      "created_date": "2021-04-23T05:01:17-04:00",
+      "published_date": "2021-04-23T05:01:17-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Coronavirus (2019-nCoV)",
+        "Vaccination and Immunization",
+        "Space Stations"
+      ],
+      "org_facet": [
+        "National Aeronautics and Space Administration"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/science/23launch-covid/merlin_181413027_abffc4ef-79ac-49be-bc5c-29be58ba683b-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1000,
+          "width": 1500,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Oleg Artemyev, a Russian astronaut, was inoculated against Covid-19 with the Sputnik V vaccine in December.",
+          "copyright": "Roscosmos/Via Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/science/23launch-covid/23launch-covid-thumbStandard-v2.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Oleg Artemyev, a Russian astronaut, was inoculated against Covid-19 with the Sputnik V vaccine in December.",
+          "copyright": "Roscosmos/Via Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/science/23launch-covid/23launch-covid-thumbLarge-v2.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Oleg Artemyev, a Russian astronaut, was inoculated against Covid-19 with the Sputnik V vaccine in December.",
+          "copyright": "Roscosmos/Via Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/science/23launch-covid/merlin_181413027_abffc4ef-79ac-49be-bc5c-29be58ba683b-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Oleg Artemyev, a Russian astronaut, was inoculated against Covid-19 with the Sputnik V vaccine in December.",
+          "copyright": "Roscosmos/Via Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/23/science/23launch-covid/merlin_181413027_abffc4ef-79ac-49be-bc5c-29be58ba683b-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Oleg Artemyev, a Russian astronaut, was inoculated against Covid-19 with the Sputnik V vaccine in December.",
+          "copyright": "Roscosmos/Via Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/3guDVsp"
+    },
+    {
+      "section": "travel",
+      "subsection": "",
+      "title": "Battle of the Seas: Cruise Lines vs. the C.D.C.",
+      "abstract": "Cruise companies and their allies are fighting against rules that have kept U.S. ships from sailing. But experts say controlling the coronavirus onboard is a complex puzzle.",
+      "url": "https://www.nytimes.com/2021/04/23/travel/battle-of-the-seas-cruise-lines-vs-the-cdc.html",
+      "uri": "nyt://article/867599ad-43e0-5064-b42d-2156f18d32ff",
+      "byline": "By Ceylan Yeginsu",
+      "item_type": "Article",
+      "updated_date": "2021-04-25T23:23:54-04:00",
+      "created_date": "2021-04-23T05:00:23-04:00",
+      "published_date": "2021-04-23T05:00:23-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Cruises",
+        "Coronavirus Risks and Safety Concerns",
+        "Coronavirus (2019-nCoV)",
+        "Vaccination and Immunization",
+        "Travel and Vacations"
+      ],
+      "org_facet": [
+        "Centers for Disease Control and Prevention",
+        "Cruise Lines International Assn"
+      ],
+      "per_facet": [
+        "DeSantis, Ron",
+        "Rubio, Marco",
+        "Scott, Richard L",
+        "Sullivan, Daniel Scott (1964- )"
+      ],
+      "geo_facet": [
+        "Florida"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/travel/23cruise-battle1-print/merlin_184489155_b80c64df-3096-4d1a-a74e-0cddb02f2b83-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1427,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Royal Caribbean&rsquo;s Navigator of the Seas docked at PortMiami in Florida. The company has scheduled sailings out of Bermuda and the Bahamas, while departures from United States ports are stalled.",
+          "copyright": "Joe Raedle/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/travel/23cruise-battle1-print/merlin_184489155_b80c64df-3096-4d1a-a74e-0cddb02f2b83-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Royal Caribbean&rsquo;s Navigator of the Seas docked at PortMiami in Florida. The company has scheduled sailings out of Bermuda and the Bahamas, while departures from United States ports are stalled.",
+          "copyright": "Joe Raedle/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/travel/23cruise-battle1-print/merlin_184489155_b80c64df-3096-4d1a-a74e-0cddb02f2b83-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Royal Caribbean&rsquo;s Navigator of the Seas docked at PortMiami in Florida. The company has scheduled sailings out of Bermuda and the Bahamas, while departures from United States ports are stalled.",
+          "copyright": "Joe Raedle/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/travel/23cruise-battle1-print/merlin_184489155_b80c64df-3096-4d1a-a74e-0cddb02f2b83-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Royal Caribbean&rsquo;s Navigator of the Seas docked at PortMiami in Florida. The company has scheduled sailings out of Bermuda and the Bahamas, while departures from United States ports are stalled.",
+          "copyright": "Joe Raedle/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/26/travel/23cruise-battle1-print/merlin_184489155_b80c64df-3096-4d1a-a74e-0cddb02f2b83-articleInline.jpg",
+          "format": "Normal",
+          "height": 132,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Royal Caribbean&rsquo;s Navigator of the Seas docked at PortMiami in Florida. The company has scheduled sailings out of Bermuda and the Bahamas, while departures from United States ports are stalled.",
+          "copyright": "Joe Raedle/Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/3ayW2te"
+    },
+    {
+      "section": "science",
+      "subsection": "",
+      "title": "Thomas Brock, Whose Discovery Paved the Way for PCR Tests, Dies at 94",
+      "abstract": "In 1966, he found heat-resistant bacteria in a hot spring at Yellowstone National Park. That led to the development of the chemical process behind the coronavirus test.",
+      "url": "https://www.nytimes.com/2021/04/22/science/thomas-brock-dead.html",
+      "uri": "nyt://article/ce784e21-6406-5743-8e64-9755e2cbd93a",
+      "byline": "By Richard Sandomir",
+      "item_type": "Article",
+      "updated_date": "2021-04-26T17:36:06-04:00",
+      "created_date": "2021-04-22T16:29:42-04:00",
+      "published_date": "2021-04-22T16:29:42-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Deaths (Obituaries)",
+        "Microbiology",
+        "Research",
+        "Tests (Medical)",
+        "Coronavirus (2019-nCoV)"
+      ],
+      "org_facet": [
+        "University of Wisconsin"
+      ],
+      "per_facet": [
+        "Brock, Thomas (1926-2021)",
+        "Mullis, Kary B"
+      ],
+      "geo_facet": [
+        "Yellowstone National Park"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/21/obituaries/Brock-01/Brock-01-superJumbo-v2.jpg",
+          "format": "superJumbo",
+          "height": 1367,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Thomas Brock in 1992 at a hot spring in Yellowstone National Park. It was there, 26 years earlier, that he found Thermus aquaticus, a species of bacteria that would be used to develop the chemical process behind PCR testing for the coronavirus.",
+          "copyright": "Peter Menzel/Menzelphoto"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/21/obituaries/Brock-01/Brock-01-thumbStandard-v2.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Thomas Brock in 1992 at a hot spring in Yellowstone National Park. It was there, 26 years earlier, that he found Thermus aquaticus, a species of bacteria that would be used to develop the chemical process behind PCR testing for the coronavirus.",
+          "copyright": "Peter Menzel/Menzelphoto"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/21/obituaries/Brock-01/Brock-01-thumbLarge-v2.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Thomas Brock in 1992 at a hot spring in Yellowstone National Park. It was there, 26 years earlier, that he found Thermus aquaticus, a species of bacteria that would be used to develop the chemical process behind PCR testing for the coronavirus.",
+          "copyright": "Peter Menzel/Menzelphoto"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/21/obituaries/Brock-01/Brock-01-mediumThreeByTwo210-v2.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Thomas Brock in 1992 at a hot spring in Yellowstone National Park. It was there, 26 years earlier, that he found Thermus aquaticus, a species of bacteria that would be used to develop the chemical process behind PCR testing for the coronavirus.",
+          "copyright": "Peter Menzel/Menzelphoto"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/21/obituaries/Brock-01/Brock-01-articleInline-v2.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Thomas Brock in 1992 at a hot spring in Yellowstone National Park. It was there, 26 years earlier, that he found Thermus aquaticus, a species of bacteria that would be used to develop the chemical process behind PCR testing for the coronavirus.",
+          "copyright": "Peter Menzel/Menzelphoto"
+        }
+      ],
+      "short_url": "https://nyti.ms/3vdjdRK"
+    },
+    {
+      "section": "well",
+      "subsection": "live",
+      "title": "Weekly Health Quiz: Feeling Blah, Outdoor Mask Use and Ice After Exercise",
+      "abstract": "Test your knowledge of this week’s health news.",
+      "url": "https://www.nytimes.com/interactive/2021/04/22/well/live/22healthquiz-04222021.html",
+      "uri": "nyt://interactive/e8536bd3-3727-5d9b-acf8-79e28e7fb827",
+      "byline": "By Toby Bilanow",
+      "item_type": "Interactive",
+      "updated_date": "2021-04-24T12:57:07-04:00",
+      "created_date": "2021-04-22T16:28:45-04:00",
+      "published_date": "2021-04-22T16:28:45-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Respiratory Diseases",
+        "Alzheimer's Disease",
+        "Smoking and Tobacco",
+        "Exercise",
+        "Lyme Disease",
+        "Medicine and Health",
+        "Psychology and Psychologists",
+        "Coronavirus (2019-nCoV)",
+        "Vaccination and Immunization"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/11/well/11Well-HealthQuiz-icon_Greyplease/11Well-HealthQuiz-icon-superJumbo-v3.jpg",
+          "format": "superJumbo",
+          "height": 1968,
+          "width": 1968,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Mikey Burton"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/11/well/11Well-HealthQuiz-icon_Greyplease/11Well-HealthQuiz-icon-thumbStandard-v3.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Mikey Burton"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/11/well/11Well-HealthQuiz-icon_Greyplease/11Well-HealthQuiz-icon-thumbLarge-v3.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Mikey Burton"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/11/well/11Well-HealthQuiz-icon_Greyplease/11Well-HealthQuiz-icon-mediumThreeByTwo210-v3.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Mikey Burton"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/11/well/11Well-HealthQuiz-icon_Greyplease/11Well-HealthQuiz-icon-articleInline-v3.jpg",
+          "format": "Normal",
+          "height": 190,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Mikey Burton"
+        }
+      ],
+      "short_url": "https://nyti.ms/3gwlbbP"
+    },
+    {
+      "section": "well",
+      "subsection": "mind",
+      "title": "The Nervous Person’s Guide to Re-entering Society",
+      "abstract": "How to cope with a less cautious world as pandemic restrictions loosen.",
+      "url": "https://www.nytimes.com/2021/04/22/well/mind/covid-back-to-normal.html",
+      "uri": "nyt://article/fc5072ec-445e-58fa-b26d-111596e5d169",
+      "byline": "By Christina Caron",
+      "item_type": "Article",
+      "updated_date": "2021-04-26T04:26:58-04:00",
+      "created_date": "2021-04-22T10:35:44-04:00",
+      "published_date": "2021-04-22T10:35:44-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Coronavirus Risks and Safety Concerns",
+        "Content Type: Service",
+        "Quarantine (Life and Culture)",
+        "Anxiety and Stress"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/04/22/well/00well-nervous-reentry/00well-nervous-reentry-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Chloe Cushman"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/22/well/00well-nervous-reentry/00well-nervous-reentry-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Chloe Cushman"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/22/well/00well-nervous-reentry/00well-nervous-reentry-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Chloe Cushman"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/22/well/00well-nervous-reentry/00well-nervous-reentry-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Chloe Cushman"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/04/22/well/00well-nervous-reentry/00well-nervous-reentry-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Chloe Cushman"
+        }
+      ],
+      "short_url": "https://nyti.ms/3gvd0MV"
+    }
+  ]
+}

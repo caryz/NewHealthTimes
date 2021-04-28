@@ -12,7 +12,7 @@ struct WebViewContainerViewModel {
     let title: String
     let delegate: WebViewContainerDelegate?
 
-    init(with story: TopStoriesResult, delegate: WebViewContainerDelegate) {
+    init(with story: TopStoriesResult, delegate: WebViewContainerDelegate?) {
         self.urlString = story.url
         self.title = story.title
         self.delegate = delegate
