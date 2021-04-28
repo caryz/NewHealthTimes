@@ -32,17 +32,36 @@ class WebViewContainerViewController: UIViewController, Storyboarded {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        guard let url = URL(string: viewModel.urlString) else {
+            showSomethingWentWrongAlert(title: "Something went wrong",
+                                        message: "Invalid URL: \(viewModel.urlString)") { [weak self] _ in
+                self?.delegate?.exitWebViewContainer()
+            }
+            return
+        }
+
         addButtons()
+        addObservers()
         webView.allowsBackForwardNavigationGestures = true
         webView.navigationDelegate = self
+
+        let request = URLRequest(url: url)
+        webView.load(request)
+
+        delegate = viewModel?.delegate
+        title = viewModel.title
+    }
+
+    private func addObservers() {
         webView.addObserver(self, forKeyPath: #keyPath(WKWebView.estimatedProgress),
                             options: .new, context: nil)
         webView.addObserver(self, forKeyPath: #keyPath(WKWebView.title),
                             options: .new, context: nil)
-
-        webView.load(viewModel.urlString)
-        delegate = viewModel?.delegate
-        title = viewModel.title
+        webView.addObserver(self, forKeyPath: #keyPath(WKWebView.canGoBack),
+                            options: .new, context: nil)
+        webView.addObserver(self, forKeyPath: #keyPath(WKWebView.canGoForward),
+                            options: .new, context: nil)
     }
 
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
@@ -50,6 +69,10 @@ class WebViewContainerViewController: UIViewController, Storyboarded {
             progressView.progress = Float(webView.estimatedProgress)
         } else if keyPath == "title", let title = webView.title {
             self.title = title
+        } else if keyPath == "canGoBack" {
+            backButton.isEnabled = webView.canGoBack
+        } else if keyPath == "canGoForward" {
+            forwardButton.isEnabled = webView.canGoForward
         }
     }
 
@@ -61,6 +84,8 @@ class WebViewContainerViewController: UIViewController, Storyboarded {
         let spacer = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
         let refresh = UIBarButtonItem(barButtonSystemItem: .refresh, target: webView,
                                       action: #selector(webView.reload))
+        backButton.isEnabled = false
+        forwardButton.isEnabled = false
 
         toolbarItems = [backButton, forwardButton, spacer, refresh]
         navigationController?.isToolbarHidden = false
@@ -80,15 +105,6 @@ extension WebViewContainerViewController: WKNavigationDelegate {
         progressView.isHidden = true
         showSomethingWentWrongAlert() { [weak self] _ in
             self?.delegate?.exitWebViewContainer()
-        }
-    }
-}
-
-extension WKWebView {
-    func load(_ urlString: String) {
-        if let url = URL(string: urlString) {
-            let request = URLRequest(url: url)
-            load(request)
         }
     }
 }

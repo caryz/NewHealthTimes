@@ -17,6 +17,4 @@ struct WebViewContainerViewModel {
         self.title = story.title
         self.delegate = delegate
     }
-
-//    func webViewButtonState(for )
 }

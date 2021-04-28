@@ -34,20 +34,7 @@ class HomeViewController: UIViewController, Storyboarded {
 
     private func configureNavBar() {
         title = "New Health Times"
-//        let buttonTitle = homeViewModel?.buttonTitle
-//        let play = UIBarButtonItem(title: buttonTitle,
-//                                   style: .done, target: self,
-//                                   action: #selector(playTapped))
-//        navigationItem.rightBarButtonItems = [play]
-//        navBarButton = play
     }
-
-//    @objc
-//    func playTapped() {
-//        homeViewModel?.showingImages = true
-//        navBarButton.title = homeViewModel?.buttonTitle
-//        tableView.reloadSections([0], with: .automatic)
-//    }
 
     func loadingAnimation(_ animating: Bool = true) {
         animating

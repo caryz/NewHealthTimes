@@ -23,6 +23,6 @@ class StoryCell: UITableViewCell {
         bylineLabel.text = viewModel.byline
         dateLabel.text = viewModel.date
         copyrightLabel.text = viewModel.imageCopyright
-        thumbnailImage.downloaded(from: viewModel.imageUrl!, contentMode: .scaleAspectFill)
+        thumbnailImage.setKingfisherImage(from: viewModel.imageUrl, contentMode: .scaleAspectFill)
     }
 }
