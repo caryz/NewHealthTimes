@@ -16,7 +16,18 @@ class MainAppCoordinator: Coordinator {
 
     func start() {
         let vc = HomeViewController.instantiate()
-        vc.coordinator = self
+        vc.coordinator = self // should be delegate or nothing
+
+        TopStoriesAPI().get { (result) in
+            vc.loadingAnimation(false)
+            switch result {
+            case .success(let root):
+                vc.homeViewModel = HomeViewModel(with: root.results)
+            case .failure:
+                vc.showSomethingWentWrongAlert()
+            }
+        }
+
         navigationController.pushViewController(vc, animated: false)
     }
 }

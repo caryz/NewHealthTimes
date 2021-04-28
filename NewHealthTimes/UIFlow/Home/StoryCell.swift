@@ -14,11 +14,15 @@ class StoryCell: UITableViewCell {
     @IBOutlet weak var subtitleLabel: UILabel!
     @IBOutlet weak var bylineLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var thumbnailImage: UIImageView!
+    @IBOutlet weak var copyrightLabel: UILabel!
 
     func configure(with viewModel: StoryCellViewModel) {
         titleLabel.text = viewModel.title
         subtitleLabel.text = viewModel.subtitle
         bylineLabel.text = viewModel.byline
         dateLabel.text = viewModel.date
+        copyrightLabel.text = viewModel.imageCopyright
+        thumbnailImage.downloaded(from: viewModel.imageUrl!, contentMode: .scaleAspectFill)
     }
 }

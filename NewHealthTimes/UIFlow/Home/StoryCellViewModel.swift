@@ -13,7 +13,8 @@ struct StoryCellViewModel {
     let byline: String
     let date: String
     let url: URL?
-//    let image: UIImage
+    let imageUrl: String?
+    let imageCopyright: String?
 
     init(with story: TopStoriesResult) {
         title = story.title
@@ -21,5 +22,9 @@ struct StoryCellViewModel {
         byline = story.byline
         date = story.publishedDate.iso8601Date?.monthDayYear ?? ""
         url = URL(string: story.url)
+
+        let media = story.multimedia.filter { $0.format == .superJumbo }.first
+        imageUrl = media?.url
+        imageCopyright = media?.copyright
     }
 }

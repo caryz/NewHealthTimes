@@ -8,5 +8,15 @@
 import Foundation
 
 struct HomeViewModel {
-    
+    var storyModels = [TopStoriesResult]()
+    var storyCellViewModels = [StoryCellViewModel]()
+
+    init(with storyModels: [TopStoriesResult]) {
+        self.storyModels = storyModels
+        self.storyCellViewModels = getStoryCellViewModels(with: storyModels)
+    }
+
+    private func getStoryCellViewModels(with stories: [TopStoriesResult]) -> [StoryCellViewModel] {
+        return stories.map { StoryCellViewModel(with: $0) }
+    }
 }

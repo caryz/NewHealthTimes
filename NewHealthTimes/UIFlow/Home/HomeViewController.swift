@@ -12,9 +12,15 @@ import WebKit
 class HomeViewController: UIViewController, Storyboarded {
 
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    var navBarButton: UIBarButtonItem!
 
-    var coordinator: MainAppCoordinator?
-    var storyModels = [TopStoriesResult]()
+    weak var coordinator: MainAppCoordinator? // make sample delegate or remove this
+    var homeViewModel: HomeViewModel? {
+        didSet {
+            tableView.reloadSections([0], with: .automatic)
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,50 +29,59 @@ class HomeViewController: UIViewController, Storyboarded {
         tableView.estimatedRowHeight = 100
         tableView.dataSource = self
         tableView.delegate = self
-
-        // TODO: Add Loading Spinner
-        TopStoriesAPI().get { (result) in
-            switch result {
-            case .success(let root):
-                self.storyModels = root.results
-                self.tableView.reloadSections([0], with: .automatic)
-            case .failure(let error):
-                print("Something went wrong: \(error.localizedDescription)")
-            }
-        }
+        tableView.tableFooterView = UIView()
     }
 
     private func configureNavBar() {
         title = "New Health Times"
+//        let buttonTitle = homeViewModel?.buttonTitle
+//        let play = UIBarButtonItem(title: buttonTitle,
+//                                   style: .done, target: self,
+//                                   action: #selector(playTapped))
+//        navigationItem.rightBarButtonItems = [play]
+//        navBarButton = play
     }
 
+//    @objc
+//    func playTapped() {
+//        homeViewModel?.showingImages = true
+//        navBarButton.title = homeViewModel?.buttonTitle
+//        tableView.reloadSections([0], with: .automatic)
+//    }
+
+    func loadingAnimation(_ animating: Bool = true) {
+        animating
+            ? activityIndicator.startAnimating()
+            : activityIndicator.stopAnimating()
+    }
 }
 
 extension HomeViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return storyModels.count
+        return homeViewModel?.storyCellViewModels.count ?? 0
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: StoryCell.identifier, for: indexPath) as? StoryCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: StoryCell.identifier, for: indexPath) as? StoryCell,
+              let viewModel = homeViewModel?.storyCellViewModels[indexPath.row] else {
             return UITableViewCell()
         }
 
-        let cellViewModel = StoryCellViewModel(with: storyModels[indexPath.row])
-        cell.configure(with: cellViewModel)
+        cell.configure(with: viewModel)
         return cell
     }
-
-
 }
 
 extension HomeViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let viewModel = WebViewContainerViewModel(with: storyModels[indexPath.row], delegate: self)
+        guard let storyModel = homeViewModel?.storyModels[indexPath.row] else { return }
+
+        let viewModel = WebViewContainerViewModel(with:storyModel, delegate: self)
         let webViewContainer = WebViewContainerViewController.viewController(with: viewModel)
 
         navigationController?.pushViewController(webViewContainer, animated: true)
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
 

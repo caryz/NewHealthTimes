@@ -29,6 +29,7 @@
 		4A9F1DDF2637DE4800FC7B91 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F1DDE2637DE4800FC7B91 /* APIError.swift */; };
 		4A9F1DE82637E07D00FC7B91 /* WebViewContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F1DE72637E07D00FC7B91 /* WebViewContainerViewController.swift */; };
 		4A9F1DF02637E4AF00FC7B91 /* WebViewContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F1DEF2637E4AF00FC7B91 /* WebViewContainerViewModel.swift */; };
+		4A9F1DF52638DB5200FC7B91 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F1DF42638DB5200FC7B91 /* UIImageView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		4A9F1DDE2637DE4800FC7B91 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		4A9F1DE72637E07D00FC7B91 /* WebViewContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContainerViewController.swift; sourceTree = "<group>"; };
 		4A9F1DEF2637E4AF00FC7B91 /* WebViewContainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContainerViewModel.swift; sourceTree = "<group>"; };
+		4A9F1DF42638DB5200FC7B91 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 			children = (
 				4A2EB6012637B55800A773A6 /* UIViewController+Extensions.swift */,
 				4A9F1DD92637DB5800FC7B91 /* Date+String+Extensions.swift */,
+				4A9F1DF42638DB5200FC7B91 /* UIImageView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				4A2EB5DA2637A36300A773A6 /* TopStoriesAPI.swift in Sources */,
 				4A9F1DF02637E4AF00FC7B91 /* WebViewContainerViewModel.swift in Sources */,
 				4A2EB59726379F3800A773A6 /* HomeViewController.swift in Sources */,
+				4A9F1DF52638DB5200FC7B91 /* UIImageView+Extensions.swift in Sources */,
 				4A2EB5E42637A84A00A773A6 /* APIConstants.swift in Sources */,
 				4A2EB60F2637B6DF00A773A6 /* HomeViewModel.swift in Sources */,
 				4A2EB5DF2637A84000A773A6 /* APIConfiguration.swift in Sources */,

@@ -15,8 +15,10 @@ protocol WebViewContainerDelegate: class {
 class WebViewContainerViewController: UIViewController, Storyboarded {
 
     @IBOutlet weak var webView: WKWebView!
-    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var progressView: UIProgressView!
+
+    var backButton: UIBarButtonItem!
+    var forwardButton: UIBarButtonItem!
 
     var viewModel: WebViewContainerViewModel!
     weak var delegate: WebViewContainerDelegate?
@@ -45,32 +47,28 @@ class WebViewContainerViewController: UIViewController, Storyboarded {
 
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         if keyPath == "estimatedProgress" {
-            print(Float(webView.estimatedProgress))
             progressView.progress = Float(webView.estimatedProgress)
-        } else if keyPath == "title" {
-            if let title = webView.title {
-                self.title = title
-            }
+        } else if keyPath == "title", let title = webView.title {
+            self.title = title
         }
     }
 
     func addButtons() {
-        let back = UIBarButtonItem(title: "Back", style: .plain, target: webView,
-                                   action: #selector(webView.goBack))
-        let forward = UIBarButtonItem(title: "Forward", style: .plain, target: webView,
-                                      action: #selector(webView.goForward))
+        backButton = UIBarButtonItem(title: "Back", style: .plain, target: webView,
+                                     action: #selector(webView.goBack))
+        forwardButton = UIBarButtonItem(title: "Forward", style: .plain, target: webView,
+                                        action: #selector(webView.goForward))
         let spacer = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
         let refresh = UIBarButtonItem(barButtonSystemItem: .refresh, target: webView,
                                       action: #selector(webView.reload))
 
-        toolbarItems = [back, forward, spacer, refresh]
+        toolbarItems = [backButton, forwardButton, spacer, refresh]
         navigationController?.isToolbarHidden = false
     }
 }
 
 extension WebViewContainerViewController: WKNavigationDelegate {
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        activityIndicator.stopAnimating()
         progressView.isHidden = true
     }
 
@@ -79,7 +77,6 @@ extension WebViewContainerViewController: WKNavigationDelegate {
     }
 
     func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
-        activityIndicator.stopAnimating()
         progressView.isHidden = true
         showSomethingWentWrongAlert() { [weak self] _ in
             self?.delegate?.exitWebViewContainer()
